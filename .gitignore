@@ -1,0 +1,24 @@
+# Python-környezet és rendszerfájlok
+.venv/
+__pycache__/
+.DS_Store
+
+# Biztonsági mentés
+mentes_1121/
+
+# A felmérések nyers adatai túl nagyok a GitHubhoz (100 MB felett),
+# ezeket a README alapján kell letölteni
+adatok/results.csv
+adatok/results-2.csv
+adatok/results-3.csv
+adatok/survey_results_public.csv
+
+# A szkriptek által nem használt Indeed-fájlok
+adatok/US/metro_job_postings_us.csv
+adatok/US/state_job_postings_us.csv
+adatok/GB/city_postings_gb.csv
+adatok/*/regional_*.csv
+
+# Régi, a szkript által nem használt lekérdezés-eredmények
+adatok/QueryResults-7.csv
+adatok/QueryResults-8.csv
